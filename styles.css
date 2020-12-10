@@ -1,0 +1,61 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: green;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 25px;
+  height: 200px;
+ 
+}
+input[type=text]{
+  width:30%;
+  padding: 13px 15px;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 8px;
+  outline: none;
+  border-color: fuchsia;
+  
+  }
+button{
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: lime;
+  border-color: orangered;
+  color: white;
+  border-color: transparent;
+  outline: none;
+}
+button:hover{
+  cursor: pointer;
+  padding: 4px;
+  outline: none;
+  background-color: red;
+  text-transform: lowercase;
+
+}
+h1{
+  color: blue;
+  align-content: center;
+}

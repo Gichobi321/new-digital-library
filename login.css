@@ -1,0 +1,81 @@
+.navbar {
+  background-color: cyan;
+  padding: 5px; 
+  width: 100%;
+  height: 20%;
+  
+}
+.navbar li a {
+  color:black !important; 
+
+}
+.form-inline {
+  border: none; 
+  color: black; 
+}
+form {
+  max-width: 500px;
+  padding: 20px; 
+  border: 1px solid black; 
+}
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin-top: 30px; 
+  height: 10vh; 
+  width: 100%; 
+  background: #131313;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  color: white; 
+  font-size: 17px; 
+  letter-spacing: 2px;
+}
+a:hover{
+  background-color: green;
+  font-size: 4;
+  cursor: pointer;
+  colo
+
+}
+.container {
+position: absolute;
+left: 30%;
+top: 50%;
+transform: translate(-50%, -50%);
+ border:none;
+ padding: 50px;
+ outline: none;
+ background-color: transparent;
+ width: 600px;
+ margin: auto;
+align-content: center;
+ }
+ body{
+  background-image:url("lib5.png"); 
+ }
+ input[type=password] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px 20px 20px 20px;
+    border-color: cyan;
+    background-color: transparent;
+  
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px 20px 20px 20px;
+  border-color: cyan;
+background-color: transparent;
+
+}

@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #3f8adb !important; 
+    
+  }
+  .navbar li a {
+    color:white !important; 
+  }
+  .form-inline {
+    border: none; 
+    color: white; 
+  }
+  
+  .jumbotron {
+    max-width: 1500px;
+    margin: 0 auto; 
+    margin-top: 10px; 
+    height: 40vh; 
+    background: url('./lib1.jpg') no-repeat;
+    background-size: 100% 100%; 
+  }
+  
+  .jumbotron h1 {
+    max-width: 500px; 
+  }
+  .jumbotron p {
+    max-width: 700px; 
+  }
+  .jumbotron h1, .jumbotron p {
+    background:rgba(19, 19, 19, .7); 
+    color: white; 
+    padding: 7px; 
+  
+  }

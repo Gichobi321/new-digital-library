@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #007bff !important; 
+  
+}
+.navbar li a {
+  color:white !important; 
+}
+.form-inline {
+  border: none; 
+  color: white; 
+}
+
+.jumbotron {
+  max-width: 1500px;
+  margin: 0 auto; 
+  margin-top: 10px; 
+  height: 40vh; 
+  background: url('./lib1.jpg') no-repeat;
+  background-size: 100% 100%; 
+}
+
+.jumbotron h1 {
+  max-width: 500px; 
+}
+.jumbotron p {
+  max-width: 700px; 
+}
+.jumbotron h1, .jumbotron p {
+  background:rgba(19, 19, 19, .7); 
+  color: white; 
+  padding: 7px; 
+
+}
+
+.books {
+  display: flex; 
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto; 
+  margin-top: 10px; 
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin-top: 30px; 
+  height: 10vh; 
+  width: 100%; 
+  background: #131313;
+  text-align: center;
+}
